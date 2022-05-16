@@ -13,8 +13,8 @@
     ```
 
 1. In Gitpod terminal, run `gp env PANTHEON_SSH_KEY=$(cat ~/.ssh/id_rsa)`
-<br>
-This will add environment variable scoped to this project. 
+    <br>
+    This will add environment variable scoped to this project. 
 
 1. _Optional_ - use the same `PANTHEON_SSH_KEY` in all your projects:
     1. Edit `PANTHEON_SSH_KEY` in https://gitpod.io/variables
@@ -26,8 +26,8 @@ This will add environment variable scoped to this project.
 
 
 1. Generate Terminus Token
-<br>
-https://pantheon.io/docs/machine-tokens#create-a-machine-token
+    <br>
+    https://pantheon.io/docs/machine-tokens#create-a-machine-token
 
 1. Add Terminus token you generated to Gitpod as a new environment variable `PROJECT_TERMINUS_TOKEN` (https://gitpod.io/variables)
 
