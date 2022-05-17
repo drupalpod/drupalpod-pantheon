@@ -12,7 +12,7 @@
     ssh-keygen -b 4096
     ```
 
-1. In Gitpod terminal, run `gp env PANTHEON_SSH_KEY=$(cat ~/.ssh/id_rsa)`
+1. In Gitpod terminal, run `gp env "PANTHEON_SSH_KEY=$(cat ~/.ssh/id_rsa)"`
     <br>
     This will add environment variable scoped to this project. 
 
